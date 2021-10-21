@@ -7,14 +7,14 @@ function vowelsAndConsonants(s) {
     //ünsüzler dizisi oluşturalım  
     let consonants = ["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"]
     // dizideki her bir eleman için ünlü dizisinde var mı yok mu diye kontrol ediyoruz
- for ( i = 0; i < s.length; i++) {
+ for (let i = 0; i < s.length; i++) {
      if(vowels.includes(s[i])==true){
          console.log(`${s[i]}`)
      }   
  }
   // dizideki her bir eleman için ünsüz dizisinde var mı yok mu diye kontrol ediyoruz
   //challenge gereği bu işlemi yapmadan önce önceki döngünün tamamlanması gerekiyor
- for (i = 0; i < s.length; i++){
+ for (let i = 0; i < s.length; i++){
      if(consonants.includes(s[i])==true){
         console.log(`${s[i]}`)
      }
