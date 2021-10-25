@@ -11,6 +11,7 @@ function getArea(length, width) {
     // Write your code here
     area= length * width
     return area;
+    
 }
 
 /**

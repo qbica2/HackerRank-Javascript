@@ -45,6 +45,7 @@ function getLetter(s) {
     }
     return letter;
 }
+
 // buradaki işlemleri yapıp kendiniz test edebilirsiniz
 // const string = prompt("bir şeyler yaz")
 // let letter ;

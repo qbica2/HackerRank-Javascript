@@ -17,4 +17,5 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     // Write code that uses console.log to print the concatenation of 'firstString' and 'secondString' on a new line. The        variable 'firstString' must be printed first.
     let newString = `${firstString}${secondString}`
     console.log(newString)
+    
 }
