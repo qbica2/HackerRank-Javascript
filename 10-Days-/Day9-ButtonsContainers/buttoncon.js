@@ -17,6 +17,14 @@ function rotate(){
       let buttonsDOM= document.querySelector(`#btn${ARR[i]}`)
       // son olarak da tıklama eventlerinden sonra oluşan yeni dizimizi yerleştirdik
       buttonsDOM.innerHTML= arr[i]
+
+      // daha eğlenceli gözükmesi için boostrap ekledim 
+      if(buttonsDOM.classList.contains("btn-success")){
+          buttonsDOM.classList.replace("btn-success","btn-dark")
+      }else {
+          buttonsDOM.classList.replace("btn-dark","btn-success")
+      }
+
     }
     
  
